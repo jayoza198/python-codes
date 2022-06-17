@@ -6,14 +6,10 @@ print(age1,age2,age3)
 if age1>age2:
     if age1>age3:
         print(age1)
-    elif age2>age3:
-        print(age2)
     else:
         print(age3)
-if age2>age1:
+else:
     if age2>age3:
         print(age2)
-    elif age3>age2:
-        print(age3)
     else:
-        print(age1)
+        print(age3)
